@@ -1,0 +1,8 @@
+# Install a CUDA build of torch first, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch>=2.4
+transformers>=4.56
+peft>=0.17
+accelerate>=1.0
+# optional, only for --load-in-4bit (QLoRA)
+# bitsandbytes>=0.45
